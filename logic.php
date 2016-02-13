@@ -1,0 +1,6 @@
+<?php
+
+$passwordFinal = "password is:";
+
+
+ ?>

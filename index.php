@@ -7,9 +7,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
 <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="style.css">
-<?php 
-require('logic.php');
-?>
+<?php require('logic.php'); ?>
 </head>
 <body>
 <div class="container-fluid">
@@ -17,6 +15,16 @@ require('logic.php');
     <header>
       <div class="col-md-12 branding">
         <h1>P2 - Password Generator</h1>
+        <form action="index.php" method="get">
+          How Many words:
+          <input type="phone" name="pwCount" maxlength="9">
+          <br>
+          <input type="checkbox" name="pwNum" value="yes">
+          Include a number?<br>
+          <input type="checkbox" name="pwSpChar" value="yes">
+          Include a number?<br>
+          <input type="submit" value="Make password">
+        </form>
       </div>
     </header>
   </div>

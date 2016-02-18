@@ -6,7 +6,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script src="scripts.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="style.css">
 <?php require('logic.php'); ?>
 </head>
@@ -14,13 +13,13 @@
 <div class="container-fluid">
   <div class="row">
     <header>
-      <div class="col-md-12 branding">      	
+      <div class="col-md-12 branding">
         <h1><a href="index.php">XKCD Password Generator</a></h1>
       </div>
     </header>
   </div>
   <div class="row">
-    <div class="col-md-12 passwordFinalForm"> 	
+    <div class="col-md-12 passwordFinalForm">
       <h2 class="passwordFinal"><span class="pw"><?php echo $passwordFinal; ?></span> <span class="copy">Copy to clipboard</span></h2>
       <div class="defaultNotice">(Default: 4 Words)</div>
       <div class="col-md-6 pwForm">
@@ -39,20 +38,16 @@
           <input type="submit" value="Make password">
         </form>
       </div>
-  
     </div>
   </div>
   <div class="row">
-  	      <div class="col-md-12 about">
-          <h3>What's an XKCD Password Genterator?</h3>
-          <h4>Comic originally published at: </h4>
-          <a href="https://xkcd.com/936/" target="_blank">
-          	<h4>https://xkcd.com/936/</h4>
-          	<img src="https://imgs.xkcd.com/comics/password_strength.png">
-          </a>
-      </div>
+    <div class="col-md-12 about">
+      <h3>What's an XKCD Password Genterator?</h3>
+      <h4>Comic originally published at: </h4>
+      <a href="https://xkcd.com/936/" target="_blank">
+      <h4>https://xkcd.com/936/</h4>
+      <img src="https://imgs.xkcd.com/comics/password_strength.png" alt="xkcd password"> </a> </div>
   </div>
-  
 </div>
 </body>
 </html>

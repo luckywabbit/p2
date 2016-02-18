@@ -11,6 +11,7 @@ $(document).ready(function () {
 		}
 	});
 	
+	//copy to clipboard prototype functionality - Gets Dynamic password and calls alert message.
 	var pw = $(".passwordFinal").html();
 	$(".copy").click(function(){
 		var pw = $(".pw").html();
